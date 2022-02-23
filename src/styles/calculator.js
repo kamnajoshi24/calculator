@@ -1,6 +1,6 @@
 import styled from "styled-components";
 export const Main = styled.div`
-  width: 600px;
+  width: 500px;
   height: 600px;
   background-color: black;
   border-radius: 50px;
@@ -43,14 +43,14 @@ export const Key = styled.div`
     place-content: unset;
     align-items: center;
     padding-left: 2rem;
-    width: 265px;
+    width: 200px;
   }
 `;
 
 export const Button = styled.button`
   background-color: #333;
-  width: 110px;
-  height: 110px;
+  width: 80px;
+  height: 80px;
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -60,4 +60,18 @@ export const Button = styled.button`
   color: white;
   border: 1px solid #333;
   flex-direction: coloumn-reverse;
+`;
+export const Heading = styled.h1`
+  display: flex;
+  flex-direction: end;
+  text-align: end;
+  align-items: right;
+  justify-content: right;
+  align-content: right;
+  background-color: black;
+  color: white;
+  height: 80px;
+  width: 450px;
+  font-weight: 10px;
+  font-size: 50px;
 `;
